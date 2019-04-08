@@ -24,6 +24,6 @@ This repository contains [Jupyter](https://jupyter.readthedocs.io/en/latest/tryj
 - A browser tab will opened automatically at http://localhost:8888/
 - Please open `SparkNotebook.ipynb` in the browser.
 - Now you can read the learning material and also you can change and run it interactively
--
+
 ## Issues, Questions and Ideas
-Please create an issue to this repository. For idea and any improvement any PR are welcome
+Please create an issue to this repository for questions. For idea and any improvement, PR are welcome :)
