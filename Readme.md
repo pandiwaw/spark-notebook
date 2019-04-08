@@ -1,11 +1,15 @@
 # ECI Aggregator Notebook
+
+![Screenshot](https://github.com/traveloka/tvlk-eci-aggregator-notebook/raw/master/screenshot.png)
+
 This repository contains [Jupyter](https://jupyter.readthedocs.io/en/latest/tryjupyter.html) `Notebook` for learning material about Spark. The content is very small and simple. We hope it's easy to understand. To run this `Notebook`, you need to install `Jupyter` and Scala Interpreter plugin for `Jupyter`: `Apache Toree`. Please follow the guide bellow:
 
 ## Add `SPARK_HOME` to environment variable
 - Make sure you already have `Spark` installed.
 - Edit your `.bashrc`( or `.zshrc` if you are using zsh)
 - add `export SPARK_HOME=/path/to/your/spark/installation`. Example: `/home/dharmasaputra/Application/spark-2.4.0-bin-hadoop2.7`
-- Save it.
+- add `export PATH=$SPARK_HOME:$PATH/bin`
+- Save it and restart your shell
 
 ## Installing Jupyter and Apache Toree
 - `$ sudo apt install python-pip` // skip if you already have pip
