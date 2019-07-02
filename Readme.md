@@ -8,7 +8,7 @@ This repository contains [Jupyter](https://jupyter.readthedocs.io/en/latest/tryj
 - Make sure you already have `Spark` installed.
 - Edit your `.bashrc`( or `.zshrc` if you are using zsh)
 - add `export SPARK_HOME=/path/to/your/spark/installation`. Example: `/home/dharmasaputra/Application/spark-2.4.0-bin-hadoop2.7`
-- add `export PATH=$SPARK_HOME:$PATH/bin`
+- add `export PATH=$PATH:$SPARK_HOME/bin`
 - Save it and restart your shell
 
 ## Installing Jupyter and Apache Toree
@@ -20,7 +20,7 @@ This repository contains [Jupyter](https://jupyter.readthedocs.io/en/latest/tryj
 - `$ pip install toree` // `Scala` kernel plugin for Jupyter
 - `$ pip install --upgrade jsonschema`
 - `$ pip install --upgrade jsonpointer`
-- `$ jupyter toree install --spark_home=SPARK_HOME --interpreters=Scala` // enable Toree plugin
+- `$ jupyter toree install --spark_home=$SPARK_HOME --interpreters=Scala` // enable Toree plugin
 
 ## Running Notebook
 - `cd` to this project directory
